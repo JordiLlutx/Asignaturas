@@ -27,9 +27,9 @@ public int getNumAsignaturas(){
             InputStreamReader fr = new InputStreamReader(openFileInput("asignaturas.txt"));
             BufferedReader bf = new BufferedReader(fr);
 
-            for (int i = 0; i < numMeses; i++){
+            for (int i = 0; i < numAsign; i++){
 
-                meses [i] = bf.readLine();
+                asignaturas [i] = bf.readLine();
             }
 
         }catch (IOException e){}
